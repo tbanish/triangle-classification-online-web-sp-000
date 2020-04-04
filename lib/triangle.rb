@@ -21,11 +21,9 @@ class Triangle
       rescue # CustomErrorClass => error
         puts error.message
       end
-      
-      
     end
-    
   end
+  
   
   
 end
