@@ -13,7 +13,7 @@ class Triangle
     if (side_one == side_two) && (side_one == side_three) && (side_two == side_three)
       :equilateral
     # isosceles
-    elsif ((side_one == side_two) && (=! side_three)) || ((side_one == side_three) && (!= side_two)) || ((side_two == side_three) && (!= side_one))
+    elsif (side_one == side_two && =! side_three) || (side_one == side_three && != side_two) || (side_two == side_three && != side_one)
       :isoceles
     end
   end
