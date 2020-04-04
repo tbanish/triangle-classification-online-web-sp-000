@@ -12,7 +12,8 @@ class Triangle
     if (side_one == 0) && (side_two == 0) && (side_three == 0)
       begin
         raise TriangleError
-      rescue
+      rescue TriangleError < StandardError
+        
     elsif (side_one == side_two) && (side_one == side_three) && (side_two == side_three)
       :equilateral
     elsif (side_two == side_three) || (side_one == side_three) || (side_one == side_two)
