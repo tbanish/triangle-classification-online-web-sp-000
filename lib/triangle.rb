@@ -20,6 +20,8 @@ class Triangle
         raise
       rescue
       
+      end
+      
       
     end
     
