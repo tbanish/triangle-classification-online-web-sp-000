@@ -17,8 +17,8 @@ class Triangle
       :scalene
     elsif (side_one == 0) && (side_two == 0) && (side_three == 0)
       begin
-        raise # CustomErrorClass
-      rescue # CustomErrorClass => error
+        raise TriangleError
+      rescue TriangleError => error
         puts error.message
       end
     end
