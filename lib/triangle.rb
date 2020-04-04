@@ -19,7 +19,7 @@ class Triangle
       begin
         raise # CustomErrorClass
       rescue # CustomErrorClass => error
-      
+        puts error.message
       end
       
       
